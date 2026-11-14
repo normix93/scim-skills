@@ -25,6 +25,8 @@ CHECK = os.path.join(SCRIPTS, "scim_check.py")
 # Examples in the RFCs that contradict the RFCs' own rules. Each is documented in references/rfc-issues.md.
 KNOWN_RFC_ISSUES = {
     ("7644", "3.7.2.", "status"): "bulk response example uses {\"code\": \"201\"} instead of a status string",
+    ("7643", "8.2.", "password"): "full User representation (with id and meta) shows the writeOnly password",
+    ("7643", "8.3.", "password"): "same, in the Enterprise User representation",
 }
 KNOWN_RFC_FILTERS = {
     "(meta.resourceType eq User) or (meta.resourceType eq Group)": "unquoted string values (section 3.4.2)",

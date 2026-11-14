@@ -441,7 +441,7 @@ def check_value(a: dict, value, where: str, rep: Report, mode: str, single: bool
         rep.err(where, f"'{value}' is not an xsd:dateTime (e.g. 2011-08-01T18:29:49.793Z)")
     if t == "binary":
         try:
-            base64.b64decode(value, validate=True)
+            base64.b64decode(re.sub(r"\s+", "", value), validate=True)
         except Exception:
             rep.err(where, "binary values must be base64")
     canon = a.get("canonicalValues")

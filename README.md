@@ -47,6 +47,8 @@ Running the checker over the RFCs turned up (details and errata IDs in `referenc
 
 - RFC 7644 uses **invalid filters in its own examples**: `(meta.resourceType eq User)` (unquoted strings, section
   3.4.2) and `displayName sw 'Group'` (single quotes, section 3.7.2). Neither is in the errata.
+- The "full User representation" examples (RFC 7643 8.2, 8.3) return the `password` next to `id` and `meta`,
+  although the same RFC defines it as writeOnly and never returned.
 - A bulk response example uses `"status": {"code": "201"}` while the definition, and the next example, use
   `"status": "201"`.
 - The machine-readable schemas in RFC 7643 section 8.7 disagree with the prose: Group `displayName` is

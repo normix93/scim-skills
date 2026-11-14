@@ -24,6 +24,7 @@ Other reported errata on 8.7 that do not change validation: complex attributes c
 | RFC 7644 3.7.2, `GET /v2/Groups?filter=displayName sw 'Group'` | single-quoted string | none found |
 | RFC 7644 3.4.2.2, `emails co "example.com"` and similar | compares a complex attribute directly, while the same section requires a fully qualified sub-attribute | — (servers usually read it as `emails.value`) |
 | RFC 7644 3.7.2, bulk response | `"status": {"code": "201"}`, while 3.7.3 and the definition use `"status": "201"` | none found |
+| RFC 7643 8.2 and 8.3, full User representations | include `"password": "t1meMa$heen"` next to `id` and `meta`, although `password` is writeOnly and `returned: never` (section 4.1.1); fine as a create request, wrong as a server response | none found |
 | RFC 7644 3.7.3, bulk PATCH operation | `"data": {[ ... ]}` is not valid JSON and lacks `schemas`/`Operations` | 5050 |
 | RFC 7644 3.5.2, Figure 8 | `members[...].displayName`: neither 8.7.1 nor the default sub-attributes of RFC 7643 2.4 (`type`, `primary`, `display`, `value`, `$ref`) define `displayName` for members; `display` is the defined name | — |
 | RFC 7644 section 4, Figure 9 | `itemsPerPage: 10` on a page with 2 resources | 6010 |
