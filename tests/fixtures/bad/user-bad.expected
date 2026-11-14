@@ -1,0 +1,8 @@
+required attribute 'userName' is missing
+use true without quotes
+multi-valued attribute must be a JSON array
+more than one value has primary=true
+belongs to extension urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
+extension URN must also be listed in 'schemas'
+is not an xsd:dateTime
+must never be returned

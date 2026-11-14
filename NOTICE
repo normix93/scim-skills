@@ -1,0 +1,12 @@
+scim-skills — licensing
+
+- Everything written for this project (SKILL.md, references without a GENERATED banner, scripts, tools, tests,
+  evals, README): MIT, see LICENSE.
+- skills/scim/scripts/scim_schema.json and skills/scim/references/schemas.md are GENERATED from RFC 7643
+  section 8.7 by tools/build_data.py. They contain facts only (attribute names, types and characteristics), not
+  RFC prose.
+- The filter and PATCH path ABNF in skills/scim/references/filters.md are code components of RFC 7644,
+  reproduced under the Simplified BSD License per the IETF Trust Legal Provisions (LICENSES/BSD-2-Clause-IETF.txt).
+- The RFC text is not part of this repository: tools/rfctext.py downloads it into .cache/rfc (git-ignored) for
+  the generator and the tests. RFC 7643 and RFC 7644: Copyright (c) 2015 IETF Trust and the persons identified as
+  the document authors.

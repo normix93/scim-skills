@@ -1,0 +1,4 @@
+failOnErrors must be a positive integer
+POST needs a 'bulkId'
+must be POST, PUT, PATCH or DELETE
+PUT needs 'data'

@@ -1,0 +1,12 @@
+{"id": "scim-01", "q": "Write a SCIM filter that finds active users whose work email ends with @example.com."}
+{"id": "scim-02", "q": "How do I remove a single member from a SCIM group with PATCH without touching the other members?"}
+{"id": "scim-03", "q": "What paging parameters does SCIM use, is startIndex 0- or 1-based, and what do totalResults and itemsPerPage mean?"}
+{"id": "scim-04", "q": "My SCIM server returns errors as {\"status\": 400, \"scimType\": \"invalidAttribute\"}. Is that compliant?"}
+{"id": "scim-05", "q": "Where does employeeNumber go in a SCIM User, and how do I filter on it?"}
+{"id": "scim-06", "q": "What HTTP status should a SCIM server return when creating a user whose userName already exists?"}
+{"id": "scim-07", "q": "Can a SCIM client set or change the id and meta attributes? What about password on read?"}
+{"id": "scim-08", "q": "Is filtering with gt/lt allowed on boolean attributes like active? And what about co on emails without a sub-attribute?"}
+{"id": "scim-09", "q": "How does a SCIM client find out whether a server supports PATCH, bulk, sorting and ETags?"}
+{"id": "scim-10", "q": "Write a SCIM PATCH that changes only the user's work email address."}
+{"id": "scim-11", "q": "Is the Group displayName attribute required in SCIM?"}
+{"id": "scim-12", "q": "In a SCIM bulk request, how can a later operation refer to a user created by an earlier operation in the same request?"}

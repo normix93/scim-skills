@@ -1,0 +1,11 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+  "name": { "givenName": "Barbara" },
+  "active": "true",
+  "emails": { "value": "bjensen@example.com" },
+  "phoneNumbers": [ { "value": "+1 555", "primary": true }, { "value": "+1 556", "primary": true } ],
+  "employeeNumber": "1001",
+  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": { "department": "Tour Operations" },
+  "meta": { "created": "13/05/2011" },
+  "password": "t1meMa$heen"
+}

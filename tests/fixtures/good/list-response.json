@@ -1,0 +1,6 @@
+{
+  "schemas": ["urn:ietf:params:scim:api:messages:2.0:ListResponse"],
+  "totalResults": 1, "startIndex": 1, "itemsPerPage": 1,
+  "Resources": [ { "schemas": ["urn:ietf:params:scim:schemas:core:2.0:Group"], "id": "e9e30dba",
+                   "displayName": "Tour Guides", "meta": { "resourceType": "Group" } } ]
+}

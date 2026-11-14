@@ -1,0 +1,8 @@
+{
+  "name": "scim-skills",
+  "owner": { "name": "normix", "url": "https://github.com/normix93" },
+  "plugins": [
+    { "name": "scim-skills", "source": "./", "version": "0.1.0",
+      "description": "SCIM 2.0 skill and checker (RFC 7643/7644): payloads, filters, PATCH, paging, bulk, errors." }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+ "scim-01": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-02": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-03": {
+  "A": "baseline",
+  "B": "skills"
+ },
+ "scim-04": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-05": {
+  "A": "baseline",
+  "B": "skills"
+ },
+ "scim-06": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-07": {
+  "A": "baseline",
+  "B": "skills"
+ },
+ "scim-08": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-09": {
+  "A": "baseline",
+  "B": "skills"
+ },
+ "scim-10": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-11": {
+  "A": "skills",
+  "B": "baseline"
+ },
+ "scim-12": {
+  "A": "baseline",
+  "B": "skills"
+ }
+}

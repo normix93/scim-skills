@@ -1,0 +1,5 @@
+{ "schemas": ["urn:ietf:params:scim:api:messages:2.0:BulkRequest"], "failOnErrors": 0,
+  "Operations": [
+    { "method": "POST", "path": "/Users", "data": { "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"], "userName": "a" } },
+    { "method": "GET", "path": "/Users/1" },
+    { "method": "PUT", "path": "/Users/2" } ] }

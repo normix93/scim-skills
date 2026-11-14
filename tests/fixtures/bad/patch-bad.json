@@ -1,0 +1,10 @@
+{
+  "schemas": ["urn:ietf:params:scim:api:messages:2.0:PatchOp"],
+  "Operations": [
+    { "op": "move", "path": "members", "value": [] },
+    { "op": "remove" },
+    { "op": "add", "path": "emails[0].value", "value": "x@example.com" },
+    { "op": "replace", "path": "displayName" },
+    { "op": "replace", "value": "Tour Guides" }
+  ]
+}

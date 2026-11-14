@@ -1,0 +1,5 @@
+is not add, remove or replace
+'remove' needs a 'path'
+SCIM does not support array indexes
+'replace' needs a 'value'
+without 'path' needs an object value

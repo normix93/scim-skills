@@ -1,0 +1,13 @@
+{
+  "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User",
+              "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"],
+  "userName": "bjensen@example.com",
+  "externalId": "E1001",
+  "name": { "givenName": "Barbara", "familyName": "Jensen" },
+  "emails": [ { "value": "bjensen@example.com", "type": "work", "primary": true } ],
+  "active": true,
+  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+    "employeeNumber": "1001",
+    "manager": { "value": "26118915-6090-4610-87e4-49d8ca9f808d" }
+  }
+}
