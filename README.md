@@ -38,7 +38,7 @@ When `schemas` is missing it guesses the message type and keeps checking.
 ## Tested against the RFCs themselves
 
 `tests/test_scim.py` downloads RFC 7643 and 7644 (they are not committed here) and runs the checker on **every
-JSON example (34) and every filter example** in them: all must pass, except the RFC defects listed below, which
+JSON example (36) and every filter example** in them: all must pass, except the RFC defects listed below, which
 must keep being detected. Plus hand-written good and broken fixtures with the exact errors expected.
 
 ## Findings: the RFCs contradict themselves
